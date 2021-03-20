@@ -9,7 +9,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "backend": "nodemon index.js"
+    "backend": "nodemon index.js",
+    "frontend":"npm start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend \""
   },
   "author": "Nexza",
   "license": "ISC",
@@ -19,6 +21,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "concurrently": "^6.0.0",
     "nodemon": "^2.0.7"
   }
 }
