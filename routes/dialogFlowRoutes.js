@@ -6,7 +6,7 @@ const chatbot = require('../chatbot/chatbot');
 module.exports= app => {
 
  app.get("/", (req,res)=>{
-  res.send({ 'hello':'hello' });
+  res.send({ 'hello':'nexza' });
 });
 
 
