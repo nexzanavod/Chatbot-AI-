@@ -1,0 +1,17 @@
+.chatbot1 {
+  height: 400px;
+  width: 400px;
+  float: right;
+}
+
+.chatbot1_1 {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.chatbot_input {
+  position: absolute;
+  right: 20;
+  bottom: 0;
+}
